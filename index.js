@@ -7,7 +7,6 @@ main(750)
 function main(nbr){
     let css = fs.readFileSync('./assets/style.css',{encoding:"utf-8"});
     let ids= generateId(nbr);
-    let limit = 75
     let tmp = ""
 
     if(generateCsv(ids , nbr)){
