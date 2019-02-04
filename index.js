@@ -2,7 +2,7 @@ const stringify =require('csv-stringify');
 const fs = require('fs');
 const pdf = require('template-pdf-generator');
 
-main(75)
+main(750)
 
 function main(nbr){
     let css = fs.readFileSync('./assets/style.css',{encoding:"utf-8"});
